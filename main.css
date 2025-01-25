@@ -1,0 +1,52 @@
+body {
+    background-image: url("tlo.webp");
+    background-repeat: repeat;
+    background-position: center bottom;
+    font-family: Arial;
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 1000px;
+    text-align: center;
+    background-color: transparent; /* Changed to transparent */
+}
+
+.kurs {
+    display: inline-block;
+    width: 300px;
+    background-color: white;
+    margin: 0 10px;
+    border: 1px solid rgb(0, 0, 0);
+    opacity: 1;
+    border-radius: 15px; 
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; 
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+}
+
+.read-more-button {
+    border: 1px solid #000; 
+    background-color: transparent; 
+    color: #000; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s; 
+    text-align: center;
+    border-radius: 25px; /* Ensures buttons are rounded */
+    width: 150px; 
+}
+
+.read-more-button:hover {
+    background-color: #000; 
+    color: #fff; 
+}
+
+/* Other styles remain unchanged */
